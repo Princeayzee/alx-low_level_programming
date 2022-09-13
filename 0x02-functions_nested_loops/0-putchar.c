@@ -1,4 +1,4 @@
-#include "main.h"
+#include "putchar.h"
 /**
  * main - Entry point
  * Description: prints 'putchar \n'
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char str[] = "main\n";
+char str[] = "putchar\n";
 int i = 0;
 
 while (str[i] != '\0')
